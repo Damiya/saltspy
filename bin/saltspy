@@ -1,0 +1,4 @@
+require '../lib/saltspy'
+
+saltspy = Saltspy::Saltspy.new
+saltspy.launch
