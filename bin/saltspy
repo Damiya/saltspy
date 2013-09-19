@@ -1,4 +1,4 @@
-require '../lib/saltspy'
+require File.expand_path('../../lib/saltspy', __FILE__)
 
 saltspy = Saltspy::Saltspy.new
 saltspy.launch

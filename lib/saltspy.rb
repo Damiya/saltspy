@@ -13,7 +13,7 @@ module Saltspy
           @exchange = @ch.default_exchange
 
           on_message do |data|
-            puts('Got an update')
+            puts("[#{Time.now}] Message received")
             @exchange.publish('WEBSOCKET_UPDATED', :routing_key => 'com.itsdamiya.tradecaravan.update_stats')
           end
         end
