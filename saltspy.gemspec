@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'saltspy/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "saltspy"
-  spec.version       = Saltspy::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["Kate von Roeder"]
   spec.email         = ["katevonroeder@gmail.com"]
   spec.description   = %q{Spy on the saltybets}
