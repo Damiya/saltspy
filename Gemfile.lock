@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/lyondhill/socket.io-ruby-client.git
-  revision: 57b6be209043a7eda954ef102ecb0dc1bf32b6a1
-  specs:
-    socketio-client (0.0.2)
-      rest-client
-
 PATH
   remote: .
   specs:
@@ -20,6 +13,8 @@ GEM
     rake (10.1.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    socketio-client (0.0.3)
+      rest-client
 
 PLATFORMS
   ruby
@@ -29,4 +24,4 @@ DEPENDENCIES
   bunny
   rake
   saltspy!
-  socketio-client!
+  socketio-client
